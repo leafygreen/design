@@ -13144,6 +13144,8 @@ var App = function (_Component) {
 
 /* harmony default export */ __webpack_exports__["a"] = (App);
 
+console.log("test");
+
 /***/ }),
 
 /***/ "dxu9":
