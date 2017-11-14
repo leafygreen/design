@@ -142,8 +142,8 @@ pre[class*="language-"] {
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url(/fontawesome-webfont.674f50d2.eot);
-  src: url(/fontawesome-webfont.674f50d2.eot?#iefix&v=4.7.0) format('embedded-opentype'), url(/fontawesome-webfont.af7ae505.woff2) format('woff2'), url(/fontawesome-webfont.fee66e71.woff) format('woff'), url(/fontawesome-webfont.b06871f2.ttf) format('truetype'), url(/fontawesome-webfont.912ec66d.svg#fontawesomeregular) format('svg');
+  src: url(fontawesome-webfont.674f50d2.eot);
+  src: url(fontawesome-webfont.674f50d2.eot?#iefix&v=4.7.0) format('embedded-opentype'), url(fontawesome-webfont.af7ae505.woff2) format('woff2'), url(fontawesome-webfont.fee66e71.woff) format('woff'), url(fontawesome-webfont.b06871f2.ttf) format('truetype'), url(fontawesome-webfont.912ec66d.svg#fontawesomeregular) format('svg');
   font-weight: normal;
   font-style: normal;
 }

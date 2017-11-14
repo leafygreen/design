@@ -1,43 +1,43 @@
 /* Fonts! */
 @font-face {
   font-family: 'Akzidenz';
-  src: url(/akzidgrostdreg.a5feb82a.eot);
-  src: url(/akzidgrostdreg.a5feb82a.eot#iefix) format('embedded-opentype'), url(/akzidgrostdreg.fcb07c71.woff) format('woff'), url(/akzidgrostdreg.8904e539.ttf) format('truetype');
+  src: url(akzidgrostdreg.a5feb82a.eot);
+  src: url(akzidgrostdreg.a5feb82a.eot#iefix) format('embedded-opentype'), url(akzidgrostdreg.fcb07c71.woff) format('woff'), url(akzidgrostdreg.8904e539.ttf) format('truetype');
   font-style: normal;
   font-weight: normal;
 }
 @font-face {
   font-family: 'Akzidenz';
-  src: url(/akzidgrostdita.a052fcaa.eot);
-  src: url(/akzidgrostdita.a052fcaa.eot#iefix) format('embedded-opentype'), url(/akzidgrostdita.a00c9735.woff) format('woff'), url(/akzidgrostdita.4197dc18.ttf) format('truetype');
+  src: url(akzidgrostdita.a052fcaa.eot);
+  src: url(akzidgrostdita.a052fcaa.eot#iefix) format('embedded-opentype'), url(akzidgrostdita.a00c9735.woff) format('woff'), url(akzidgrostdita.4197dc18.ttf) format('truetype');
   font-style: italic;
   font-weight: normal;
 }
 @font-face {
   font-family: 'Akzidenz';
-  src: url(/akzidgrostdmed.ba9f0248.eot);
-  src: url(/akzidgrostdmed.ba9f0248.eot#iefix) format('embedded-opentype'), url(/akzidgrostdmed.a1038d3d.woff) format('woff'), url(/akzidgrostdmed.071c42c0.ttf) format('truetype');
+  src: url(akzidgrostdmed.ba9f0248.eot);
+  src: url(akzidgrostdmed.ba9f0248.eot#iefix) format('embedded-opentype'), url(akzidgrostdmed.a1038d3d.woff) format('woff'), url(akzidgrostdmed.071c42c0.ttf) format('truetype');
   font-style: normal;
   font-weight: bold;
 }
 @font-face {
   font-family: 'Akzidenz';
-  src: url(/akzidgrostdmedita.fe6946a3.eot);
-  src: url(/akzidgrostdmedita.fe6946a3.eot#iefix) format('embedded-opentype'), url(/akzidgrostdmedita.6a896db9.woff) format('woff'), url(/akzidgrostdmedita.468f58dc.ttf) format('truetype');
+  src: url(akzidgrostdmedita.fe6946a3.eot);
+  src: url(akzidgrostdmedita.fe6946a3.eot#iefix) format('embedded-opentype'), url(akzidgrostdmedita.6a896db9.woff) format('woff'), url(akzidgrostdmedita.468f58dc.ttf) format('truetype');
   font-style: italic;
   font-weight: bold;
 }
 @font-face {
   font-family: 'Akzidenz';
-  src: url(/akzidgrostdlig.b6650b76.eot);
-  src: url(/akzidgrostdlig.b6650b76.eot#iefix) format('embedded-opentype'), url(/akzidgrostdlig.d8914e9e.woff) format('woff'), url(/akzidgrostdlig.b71110e1.ttf) format('truetype');
+  src: url(akzidgrostdlig.b6650b76.eot);
+  src: url(akzidgrostdlig.b6650b76.eot#iefix) format('embedded-opentype'), url(akzidgrostdlig.d8914e9e.woff) format('woff'), url(akzidgrostdlig.b71110e1.ttf) format('truetype');
   font-style: normal;
   font-weight: 200;
 }
 @font-face {
   font-family: 'Akzidenz';
-  src: url(/akzidgrostdligita.4fc04d50.eot);
-  src: url(/akzidgrostdligita.4fc04d50.eot#iefix) format('embedded-opentype'), url(/akzidgrostdligita.55043a15.woff) format('woff'), url(/akzidgrostdligita.0aa20cd5.ttf) format('truetype');
+  src: url(akzidgrostdligita.4fc04d50.eot);
+  src: url(akzidgrostdligita.4fc04d50.eot#iefix) format('embedded-opentype'), url(akzidgrostdligita.55043a15.woff) format('woff'), url(akzidgrostdligita.0aa20cd5.ttf) format('truetype');
   font-style: italic;
   font-weight: 200;
 }
@@ -45,9 +45,9 @@
   font-family: 'MMS Icons';
   font-style: normal;
   font-weight: normal;
-  src: url(/MMSIcons-Regular.853b8c37.eot);
+  src: url(MMSIcons-Regular.853b8c37.eot);
   /* IE9 Compat Modes */
-  src: url(/MMSIcons-Regular.853b8c37.eot#iefix) format('embedded-opentype'), url(/MMSIcons-Regular.0d6dbe64.woff) format('woff'), url(/MMSIcons-Regular.7b8ffd63.ttf) format('truetype');
+  src: url(MMSIcons-Regular.853b8c37.eot#iefix) format('embedded-opentype'), url(MMSIcons-Regular.0d6dbe64.woff) format('woff'), url(MMSIcons-Regular.7b8ffd63.ttf) format('truetype');
   /* Safari, Android, iOS */
 }
 a {
