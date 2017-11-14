@@ -6140,7 +6140,7 @@ input[type="radio"].rich-radio-radio-button-is-hidden,
   height: 100vh;
   width: 100%;
   padding: 5%;
-  background-image: url(/client/assets/hero-background.png);
+  background-image: url(hero-background.41a0a20d.png);
   background-repeat: no-repeat;
   background-position: right;
   background-size: 83.25vh 100vh;
@@ -6186,7 +6186,7 @@ input[type="radio"].rich-radio-radio-button-is-hidden,
   padding: 4em 0;
 }
 .footer-social-github {
-  background-image: url(/client/assets/github.png);
+  background-image: url(github.d722db15.png);
   background-size: 100% 100%;
   height: 40px;
   width: 40px;
@@ -6195,7 +6195,7 @@ input[type="radio"].rich-radio-radio-button-is-hidden,
   outline: none;
 }
 .footer-social-dribbble {
-  background-image: url(/client/assets/dribbble.png);
+  background-image: url(dribbble.b3477d84.png);
   background-size: 100% 100%;
   height: 40px;
   width: 40px;
@@ -6331,7 +6331,7 @@ li {
   height: 30px;
 }
 .brand-logo {
-  background-image: url(/client/assets/logo.png);
+  background-image: url(logo.ac33730e.png);
   height: 30px;
   width: 85px;
   background-size: 100% 100%;
