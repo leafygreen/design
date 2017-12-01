@@ -1115,20 +1115,6 @@ module.exports = __webpack_require__("kxkY");
 
 /***/ }),
 
-/***/ "07Bz":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "mod-pattern-5-00.03f52a5e.png";
-
-/***/ }),
-
-/***/ "1/SD":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "mod-pattern-4-00.03f52a5e.png";
-
-/***/ }),
-
 /***/ "3sIU":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1248,20 +1234,6 @@ var CopyableCommand = (_temp2 = _class = function (_Component) {
 
 
 /* harmony default export */ __webpack_exports__["a"] = (CopyableCommand);
-
-/***/ }),
-
-/***/ "44Cd":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "mod-pattern-4-02.3d818c99.png";
-
-/***/ }),
-
-/***/ "4tJm":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "mod-pattern-3-01.d084ecc4.png";
 
 /***/ }),
 
@@ -3997,6 +3969,13 @@ var UICopyableCommandReact = function (_React$Component) {
 
 /***/ }),
 
+/***/ "C8B9":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "modify3.033ce697.mp4";
+
+/***/ }),
+
 /***/ "CHzl":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -4023,10 +4002,10 @@ var NotFound = function NotFound() {
 
 /***/ }),
 
-/***/ "DIMX":
+/***/ "D9Q8":
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "mod-pattern-2-00.773e64d5.png";
+module.exports = __webpack_require__.p + "modify1.7ebaa15e.mp4";
 
 /***/ }),
 
@@ -4591,20 +4570,6 @@ var UIViewModal = function UIViewModal() {
 };
 
 /* harmony default export */ __webpack_exports__["a"] = (UIViewModal);
-
-/***/ }),
-
-/***/ "G9hl":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "mod-pattern-5-02.1f29853a.png";
-
-/***/ }),
-
-/***/ "I+Cp":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "mod-pattern-4-03.ac0f0edb.png";
 
 /***/ }),
 
@@ -5322,13 +5287,6 @@ var Modal = (_temp2 = _class = function (_Component) {
 
 
 /* harmony default export */ __webpack_exports__["a"] = (Modal);
-
-/***/ }),
-
-/***/ "Nj4W":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "mod-pattern-4-01.8264b94b.png";
 
 /***/ }),
 
@@ -6285,13 +6243,6 @@ var UIButtons = function UIButtons() {
 
 /***/ }),
 
-/***/ "POqU":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "mod-pattern-1-03.a46ab5ef.png";
-
-/***/ }),
-
 /***/ "Pk+t":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -6408,13 +6359,6 @@ SplashViewGraphic.defaultProps = {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (SplashViewGraphic);
-
-/***/ }),
-
-/***/ "Sp9n":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "mod-pattern-5-05.d8820920.png";
 
 /***/ }),
 
@@ -9239,13 +9183,6 @@ var UIIcons = function UIIcons() {
 
 /***/ }),
 
-/***/ "UmPS":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "mod-pattern-1-00.79b52427.png";
-
-/***/ }),
-
 /***/ "Ur7R":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -9260,31 +9197,11 @@ module.exports = __webpack_require__.p + "mod-pattern-1-00.79b52427.png";
 
 
 
-var modPattern100 = __webpack_require__("UmPS");
-var modPattern101 = __webpack_require__("omUC");
-var modPattern102 = __webpack_require__("XAS7");
-var modPattern103 = __webpack_require__("POqU");
-
-var modPattern200 = __webpack_require__("DIMX");
-var modPattern201 = __webpack_require__("Uxe8");
-
-var modPattern300 = __webpack_require__("W7zW");
-var modPattern301 = __webpack_require__("4tJm");
-var modPattern302 = __webpack_require__("kIIJ");
-var modPattern303 = __webpack_require__("neXY");
-
-var modPattern400 = __webpack_require__("1/SD");
-var modPattern401 = __webpack_require__("Nj4W");
-var modPattern402 = __webpack_require__("44Cd");
-var modPattern403 = __webpack_require__("I+Cp");
-var modPattern404 = __webpack_require__("eMh+");
-
-var modPattern500 = __webpack_require__("07Bz");
-var modPattern501 = __webpack_require__("ryjl");
-var modPattern502 = __webpack_require__("G9hl");
-var modPattern503 = __webpack_require__("ayTX");
-var modPattern504 = __webpack_require__("ZvDU");
-var modPattern505 = __webpack_require__("Sp9n");
+var modPattern1 = __webpack_require__("D9Q8");
+var modPattern2 = __webpack_require__("cNyB");
+var modPattern3 = __webpack_require__("C8B9");
+var modPattern4 = __webpack_require__("l6zV");
+var modPattern5 = __webpack_require__("XjR5");
 
 var UIModify = function UIModify() {
   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -9296,450 +9213,258 @@ var UIModify = function UIModify() {
       'Modifying Elements'
     ),
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      'p',
-      null,
-      'The following is a set of guidelines for reference when considering the interaction patterns for modifying elements. There are two major categories your feature may fall under: 1). modifying application data, or 2). modifying underlying MongoDB data or infrastructure. You will find patterns below for handling each.'
-    ),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       'h2',
-      null,
+      { className: 'u-mt-6' },
       'Client-Side Application Data'
     ),
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       'p',
       null,
-      'When modifying client-side application data, there are fewer performance concerns for end users and their systems. Therefore the patterns are less precautionary and pretty straight forward.'
+      'We encounter fewer performance concerns when modifying client-side application data than we do with MongoDB infrastructure, so these modification patterns are less precautionary and more straightforward.'
     ),
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       'h3',
       null,
-      'Modification Pattern 1'
+      'Change Instantly'
     ),
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      'p',
-      null,
-      'e.g., a MongoDB Charts chart title'
-    ),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      'h4',
-      null,
-      'Description of pattern:'
-    ),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      'ol',
-      null,
+      'div',
+      { className: 'row u-mb-2' },
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'li',
-        null,
+        'div',
+        { className: 'columns small-12' },
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'p',
-          null,
-          'Modify and commit text instantly'
+          'video',
+          { className: 'guidelines-video u-mb-4', controls: true },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('source', { src: modPattern1, type: 'video/mp4' }),
+          'I\'m sorry; your browser doesn\'t support HTML5 video.'
         ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'guideline-screenshot', src: modPattern100 }),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'guideline-screenshot', src: modPattern101 }),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'guideline-screenshot', src: modPattern102 }),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'guideline-screenshot', src: modPattern103 })
-      )
-    ),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      'h4',
-      null,
-      'When you should use modification pattern 1:'
-    ),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      'ul',
-      null,
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'li',
-        null,
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           'p',
           null,
-          'An inline element'
-        )
-      ),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'li',
-        null,
+          'In this pattern, information is modified and committed at once, without additional views or actions. It\'s most appropriate for small changes.'
+        ),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'p',
+          'h4',
+          { className: 'u-mt-6' },
+          'When to use'
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'ul',
           null,
-          'Presentation layer matches complexity of configurable options.'
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'li',
+            null,
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'p',
+              null,
+              'To modify an inline element'
+            )
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'li',
+            null,
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'p',
+              null,
+              'Presentation layer matches complexity of configurable options.'
+            )
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'li',
+            null,
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'p',
+              null,
+              'Example: a MongoDB Charts chart title'
+            )
+          )
         )
       )
     ),
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       'h3',
       null,
-      'Modification Pattern 2'
+      'Commit Changes'
     ),
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      'p',
-      null,
-      'e.g., settings form in MongoDB Cloud'
-    ),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      'h4',
-      null,
-      'Description of pattern:'
-    ),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      'ol',
-      null,
+      'div',
+      { className: 'row u-mb-2' },
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'li',
-        null,
+        'div',
+        { className: 'columns small-12' },
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'p',
-          null,
-          'A collection of simultaneous modifications can be made'
-        )
-      ),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'li',
-        null,
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'p',
-          null,
-          'An additional user action is required to commit modifications as a group (e.g. SAVE changes)'
+          'video',
+          { className: 'guidelines-video u-mb-4', controls: true },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('source', { src: modPattern2, type: 'video/mp4' }),
+          'I\'m sorry; your browser doesn\'t support HTML5 video.'
         ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'guideline-screenshot', src: modPattern200 })
-      ),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'li',
-        null,
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           'p',
           null,
-          'warn for unintentional discarding of modifications'
+          'In this pattern, committing changes require an additional action, like Save. Users are warned if changes they made are about to be lost.'
         ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'guideline-screenshot', src: modPattern201 })
-      )
-    ),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      'h4',
-      null,
-      'When you should use modification pattern 2:'
-    ),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      'ul',
-      null,
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'li',
-        null,
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'p',
-          null,
-          'Parent container with any number of inline child elements'
-        )
-      ),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'li',
-        null,
+          'h4',
+          { className: 'u-mt-6' },
+          'When to use'
+        ),
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'p',
+          'ul',
           null,
-          'Presentation matches complexity of configurable options'
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'li',
+            null,
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'p',
+              null,
+              'Parent container with any number of inline child elements'
+            )
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'li',
+            null,
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'p',
+              null,
+              'Presentation matches complexity of configurable options'
+            )
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'li',
+            null,
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'p',
+              null,
+              'Example: settings form in MongoDB Cloud'
+            )
+          )
         )
       )
     ),
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       'h2',
-      null,
-      'User\u2019s MongoDB Data and Infrastructure'
+      { className: 'u-mt-6' },
+      'MongoDB Data and Infrastructure'
     ),
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       'p',
       null,
-      'Higher performance concerns for end users'
+      'Modifying MongoDB data and infrastructure can have greater performance concerns, so these patterns aim to manage complexity and progressively disclose precise changes. We recommend that a container should map directly to a single MongoDB concept as described in our documentation.'
     ),
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       'p',
       null,
-      'When manipulating MongoDB data and infrastructure, there are greater performance concerns for end users and their systems. Therefore the following patterns aim to manage complexity and progressively disclose precise changes that will take place as the user advances through their pattern towards a final commitment. It is recommended that a container map directly to a single MongoDB concept within our existing documentation.'
-    ),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      'p',
-      null,
-      'If communicating application behaviors and status is competing with efforts to communicate MongoDB behaviors and status, elevate and reveal the MongoDB concepts in favor of the application concepts wherever possible.'
+      'If application behavior and status information is competing with MongoDB behavior and status information, choose in favor of application concepts wherever possible.'
     ),
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       'h3',
       null,
-      'Modification Pattern 3'
+      'Commit Changes on Object'
     ),
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      'p',
-      null,
-      'e.g., Compass Document CRUD'
-    ),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      'h4',
-      null,
-      'Description of pattern:'
-    ),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      'ol',
-      null,
+      'div',
+      { className: 'row u-mb-2' },
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'li',
-        null,
+        'div',
+        { className: 'columns small-12' },
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'p',
-          null,
-          'Modify inline elements, display each\u2019s modified state'
+          'video',
+          { className: 'guidelines-video', controls: true },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('source', { src: modPattern3, type: 'video/mp4' }),
+          'I\'m sorry; your browser doesn\'t support HTML5 video.'
         ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'guideline-screenshot', src: modPattern300 }),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'guideline-screenshot', src: modPattern301 })
-      ),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'li',
-        null,
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           'p',
           null,
-          'Synchronously display its parent container\u2019s modified state'
-        )
-      ),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'li',
-        null,
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'p',
-          null,
-          'Commit modifications to the child elements via controls on the parent container'
+          'In this pattern, multiple inline changes can be made individually, but committing them is done from the parent container level.'
         ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'guideline-screenshot', src: modPattern302 })
-      ),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'li',
-        null,
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'p',
-          null,
-          'Display modification success on presentation layer'
+          'h4',
+          { className: 'u-mt-6' },
+          'When to use'
         ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'guideline-screenshot', src: modPattern303 })
-      )
-    ),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      'h4',
-      null,
-      'When you should use modification pattern 3:'
-    ),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      'ul',
-      null,
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'li',
-        null,
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'p',
+          'ul',
           null,
-          'Parent container with any number of inline child elements (all three below)'
-        )
-      ),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'li',
-        null,
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'p',
-          null,
-          'Presentation layer matches complexity of configurable options'
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'li',
+            null,
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'p',
+              null,
+              'Parent container with any number of inline child elements'
+            )
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'li',
+            null,
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'p',
+              null,
+              'Presentation layer matches complexity of configurable options'
+            )
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'li',
+            null,
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'p',
+              null,
+              'Example: Compass Document CRUD'
+            )
+          )
         )
       )
     ),
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       'h3',
       null,
-      'Modification Pattern 4'
+      'Modify in Separate Layer'
     ),
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      'p',
-      null,
-      'e.g., Atlas clusters'
-    ),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      'h4',
-      null,
-      'Description of pattern:'
-    ),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      'ol',
-      null,
+      'div',
+      { className: 'row u-mb-2' },
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'li',
-        null,
+        'div',
+        { className: 'columns small-12' },
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'p',
-          null,
-          'User initiates modification layer from presentation layer, which unwinds and displays complexity underlying a component\u2019s presentation'
+          'video',
+          { className: 'guidelines-video', controls: true },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('source', { src: modPattern4, type: 'video/mp4' }),
+          'I\'m sorry; your browser doesn\'t support HTML5 video.'
         ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'guideline-screenshot', src: modPattern400 }),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'guideline-screenshot', src: modPattern401 })
-      ),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'li',
-        null,
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           'p',
           null,
-          'Modify inline elements, display each\u2019s modified state'
+          'In this pattern, modifications are made on a modification layer separate from the presentation layer. On the modification layer, changes are committed from the parent container.'
         ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'guideline-screenshot', src: modPattern402 })
-      ),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'li',
-        null,
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'p',
-          null,
-          'Synchronously display its parent container\u2019s modified state'
-        )
-      ),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'li',
-        null,
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'p',
-          null,
-          'Commit modifications to the child elements via controls on the modification layer\u2019s parent container'
+          'h4',
+          { className: 'u-mt-6' },
+          'When to use'
         ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'guideline-screenshot', src: modPattern403 })
-      ),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'li',
-        null,
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'p',
+          'ul',
           null,
-          'Display modification progress and success on presentation layer'
-        ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'guideline-screenshot', src: modPattern404 })
-      )
-    ),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      'h4',
-      null,
-      'When you should use modification pattern 4:'
-    ),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      'ul',
-      null,
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'li',
-        null,
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'p',
-          null,
-          'Presentation layer obfuscates complexity of configurable options'
-        )
-      )
-    ),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      'h3',
-      null,
-      'Modification Pattern 5'
-    ),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      'p',
-      null,
-      'e.g., Cloud Manager Automation'
-    ),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      'h4',
-      null,
-      'Description of pattern:'
-    ),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      'ol',
-      null,
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'li',
-        null,
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'p',
-          null,
-          'User initiates modification layer from presentation layer, which unwinds and displays complexity underlying a component\u2019s presentation'
-        ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'guideline-screenshot', src: modPattern500 })
-      ),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'li',
-        null,
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'p',
-          null,
-          'Modify inline elements, display each\u2019s modified state'
-        ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'guideline-screenshot', src: modPattern501 })
-      ),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'li',
-        null,
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'p',
-          null,
-          'Synchronously display its parent container\u2019s modified state'
-        ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'guideline-screenshot', src: modPattern502 })
-      ),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'li',
-        null,
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'p',
-          null,
-          'User initiates confirmation layer (from presentation or modification layer), which unwinds and displays complexity underlying as line-items'
-        ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'guideline-screenshot', src: modPattern503 })
-      ),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'li',
-        null,
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'p',
-          null,
-          'Commit modifications to the child elements via controls on the confirmation layer'
-        ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'guideline-screenshot', src: modPattern504 })
-      ),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'li',
-        null,
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'p',
-          null,
-          'Display modification progress and success on presentation layer'
-        ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: 'guideline-screenshot', src: modPattern505 })
-      )
-    ),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      'h4',
-      null,
-      'When you should use modification pattern 5:'
-    ),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      'ul',
-      null,
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'li',
-        null,
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'p',
-          null,
-          'Presentation layer obfuscates complexity of configurable options'
-        )
-      ),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        'li',
-        null,
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          'p',
-          null,
-          'Subsequent modification layer also obfuscates complexity of configurable options through processes like bulk edits'
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'li',
+            null,
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'p',
+              null,
+              'Presentation layer obfuscates complexity of configurable options'
+            )
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'li',
+            null,
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'p',
+              null,
+              'Example: Atlas clusters'
+            )
+          )
         )
       )
     )
@@ -10056,13 +9781,6 @@ var Resources = function (_React$Component) {
 }(__WEBPACK_IMPORTED_MODULE_0_react___default.a.Component);
 
 /* harmony default export */ __webpack_exports__["a"] = (Resources);
-
-/***/ }),
-
-/***/ "Uxe8":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "mod-pattern-2-01.f304ccfc.png";
 
 /***/ }),
 
@@ -10454,13 +10172,6 @@ var UITabsReact = function (_React$Component) {
 
 /***/ }),
 
-/***/ "W7zW":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "mod-pattern-3-00.03f52a5e.png";
-
-/***/ }),
-
 /***/ "WTHL":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -10824,13 +10535,6 @@ Layout.propTypes = {
 };
 
 /* harmony default export */ __webpack_exports__["a"] = (Layout);
-
-/***/ }),
-
-/***/ "XAS7":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "mod-pattern-1-02.152cd88c.png";
 
 /***/ }),
 
@@ -11712,6 +11416,13 @@ var UITablesReact = function (_React$Component) {
 
 /***/ }),
 
+/***/ "XjR5":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "modify5.1d626727.mp4";
+
+/***/ }),
+
 /***/ "YbQN":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11766,13 +11477,6 @@ module.exports = Cell;
 
 /***/ }),
 
-/***/ "ZvDU":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "mod-pattern-5-04.7991942c.png";
-
-/***/ }),
-
 /***/ "aSYM":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -11782,13 +11486,6 @@ var config = {
 };
 
 /* harmony default export */ __webpack_exports__["a"] = (config);
-
-/***/ }),
-
-/***/ "ayTX":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "mod-pattern-5-03.eb262e75.png";
 
 /***/ }),
 
@@ -12316,6 +12013,13 @@ var UIBannersReact = function (_React$Component) {
 }(__WEBPACK_IMPORTED_MODULE_0_react___default.a.Component);
 
 /* harmony default export */ __webpack_exports__["a"] = (UIBannersReact);
+
+/***/ }),
+
+/***/ "cNyB":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "modify2.635bfee0.mp4";
 
 /***/ }),
 
@@ -13463,13 +13167,6 @@ RadioGroup.childContextTypes = {
 
 /***/ }),
 
-/***/ "eMh+":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "mod-pattern-4-04.abfd8fa0.png";
-
-/***/ }),
-
 /***/ "f59z":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13788,13 +13485,6 @@ var UIPrinciples = function UIPrinciples() {
 
 /***/ }),
 
-/***/ "kIIJ":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "mod-pattern-3-02.f717a2e5.png";
-
-/***/ }),
-
 /***/ "kLhi":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -13957,6 +13647,13 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 Object(__WEBPACK_IMPORTED_MODULE_2_react_dom__["render"])(__WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__app_jsx__["a" /* default */], null), document.querySelector('#app'));
+
+/***/ }),
+
+/***/ "l6zV":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "modify4.e8b3b74e.mp4";
 
 /***/ }),
 
@@ -14606,20 +14303,6 @@ var BaseStylesIndex = function BaseStylesIndex() {
 };
 
 /* harmony default export */ __webpack_exports__["a"] = (BaseStylesIndex);
-
-/***/ }),
-
-/***/ "neXY":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "mod-pattern-3-03.56191d80.png";
-
-/***/ }),
-
-/***/ "omUC":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "mod-pattern-1-01.ff6f9909.png";
 
 /***/ }),
 
@@ -15466,13 +15149,6 @@ Column.defaultProps = {
 };
 
 module.exports = Column;
-
-/***/ }),
-
-/***/ "ryjl":
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "mod-pattern-5-01.8264b94b.png";
 
 /***/ }),
 

@@ -6246,6 +6246,11 @@ input[type="radio"].rich-radio-radio-button-is-hidden,
 .guidelines-modify ul {
   list-style: disc;
 }
+.guidelines-video {
+  display: block;
+  max-width: 100%;
+  padding: 1em 0;
+}
 * {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-box-sizing: border-box;
