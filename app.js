@@ -9483,7 +9483,6 @@ var UIModify = function UIModify() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__css_root_less__ = __webpack_require__("JLpR");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__css_root_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__css_root_less__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__config_js__ = __webpack_require__("aSYM");
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
@@ -9497,8 +9496,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 
 
-
-var token = __WEBPACK_IMPORTED_MODULE_2__config_js__["a" /* default */].gitkey;
+var client = new stitch.StitchClient('mdb-design-site-apis-wpxcw');
 
 var Resources = function (_React$Component) {
   _inherits(Resources, _React$Component);
@@ -9530,26 +9528,18 @@ var Resources = function (_React$Component) {
     var statePairing = [["_mongodb-core.sketch", "coreLastUpdated"], ["_compass-template-1.7.sketch", "compassLastUpdated"], ["_cloud-template.sketch", "cloudLastUpdated"], ["_stitch-template.sketch", "stitchLastUpdated"], ["_university-template-1.2.sketch", "universityLastUpdated"]];
     var stateMap = new Map(statePairing);
 
-    var queryTemplate = 'query FindLatestCommit($file: String) { repository(owner: "leafygreen", name: "sketchUIlibrary") { ref(qualifiedName: "master") { target { ... on Commit { history(first:1, path: $file) { edges { node { messageHeadline committedDate } } } } } } } }';
-    files.map(function (files) {
-      fetch("https://api.github.com/graphql", {
-        body: JSON.stringify({
-          query: queryTemplate,
-          variables: { file: files }
-        }),
-        headers: {
-          Authorization: 'bearer ' + token,
-          "Content-Type": "application/x-www-form-urlencoded"
-        },
-        method: "POST"
-      }).then(function (response) {
-        return response.json();
-      }).then(function (responseJson) {
-        var _this2$setState;
+    client.login().then(function () {
+      client.executeFunction("fetchLastUpdated").then(function (result) {
+        result.http_result.forEach(function (item) {
+          var _this2$setState;
 
-        var updatedDate = responseJson.data.repository.ref.target.history.edges[0].node.committedDate.split('T')[0];
-        var fileState = stateMap.get(files);
-        _this2.setState((_this2$setState = {}, _this2$setState[fileState] = updatedDate, _this2$setState));
+          var item_json = JSON.parse(item.response.body.toString());
+          var updatedDate = item_json.data.repository.ref.target.history.edges[0].node.committedDate.split('T')[0];
+          var file = item.file;
+          var fileState = stateMap.get(file);
+
+          _this2.setState((_this2$setState = {}, _this2$setState[fileState] = updatedDate, _this2$setState));
+        });
       });
     });
   };
@@ -11474,18 +11464,6 @@ var Cell = (_temp = _class = function (_PureComponent) {
 
 
 module.exports = Cell;
-
-/***/ }),
-
-/***/ "aSYM":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-var config = {
-  gitkey: '57edd4c6cf43eadfa2ad588b7d8f7e2cc6d1a1be'
-};
-
-/* harmony default export */ __webpack_exports__["a"] = (config);
 
 /***/ }),
 
