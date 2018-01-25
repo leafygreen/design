@@ -5301,8 +5301,10 @@ var Modal = (_temp2 = _class = function (_Component) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__react_components_site_code__ = __webpack_require__("Pk+t");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__react_components_Button_js__ = __webpack_require__("kjwo");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__react_components_Button_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__react_components_Button_js__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__react_components_Checkbox_js__ = __webpack_require__("ynmW");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__react_components_RadioGroup_js__ = __webpack_require__("e0BD");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__react_components_ButtonGroup_js__ = __webpack_require__("PE2N");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__react_components_ButtonGroup_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__react_components_ButtonGroup_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__react_components_Checkbox_js__ = __webpack_require__("ynmW");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__react_components_RadioGroup_js__ = __webpack_require__("e0BD");
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
@@ -5312,6 +5314,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 // ==================================================
 //  DesignSystem - DSButtons
 // ==================================================
+
 
 
 
@@ -5339,7 +5342,8 @@ var UIButtonsReact = function (_React$Component) {
     return _ret = (_temp = (_this = _possibleConstructorReturn(this, _React$Component.call.apply(_React$Component, [this].concat(args))), _this), _this.state = {
       controlDisabled: false,
       controlTypeClassName: "",
-      controlLabel: "Default Button"
+      controlLabel: "Default Button",
+      selected: 'Topology'
     }, _temp), _possibleConstructorReturn(_this, _ret);
   }
 
@@ -5461,7 +5465,7 @@ var UIButtonsReact = function (_React$Component) {
             )
           ),
           __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            __WEBPACK_IMPORTED_MODULE_5__react_components_RadioGroup_js__["b" /* RadioGroup */],
+            __WEBPACK_IMPORTED_MODULE_6__react_components_RadioGroup_js__["b" /* RadioGroup */],
             {
               name: 'button-state',
               selectedValue: this.state.controlTypeClassName,
@@ -5476,31 +5480,31 @@ var UIButtonsReact = function (_React$Component) {
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               'label',
               { className: 'checkbox' },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__react_components_RadioGroup_js__["a" /* Radio */], { value: '', id: 'type-default', checked: true }),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6__react_components_RadioGroup_js__["a" /* Radio */], { value: '', id: 'type-default', checked: true }),
               ' Default'
             ),
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               'label',
               { className: 'checkbox' },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__react_components_RadioGroup_js__["a" /* Radio */], { value: 'button-is-primary', id: 'type-primary' }),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6__react_components_RadioGroup_js__["a" /* Radio */], { value: 'button-is-primary', id: 'type-primary' }),
               ' Primary'
             ),
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               'label',
               { className: 'checkbox' },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__react_components_RadioGroup_js__["a" /* Radio */], { value: 'button-is-info', id: 'type-outline' }),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6__react_components_RadioGroup_js__["a" /* Radio */], { value: 'button-is-info', id: 'type-outline' }),
               ' Outline'
             ),
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               'label',
               { className: 'checkbox' },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__react_components_RadioGroup_js__["a" /* Radio */], { value: 'button-is-danger', id: 'type-danger' }),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6__react_components_RadioGroup_js__["a" /* Radio */], { value: 'button-is-danger', id: 'type-danger' }),
               ' Danger'
             ),
             __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
               'label',
               { className: 'checkbox' },
-              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__react_components_RadioGroup_js__["a" /* Radio */], { value: 'button-is-default-inverse', id: 'type-dark' }),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_6__react_components_RadioGroup_js__["a" /* Radio */], { value: 'button-is-default-inverse', id: 'type-dark' }),
               ' Dark'
             )
           )
@@ -5517,7 +5521,7 @@ var UIButtonsReact = function (_React$Component) {
               'state'
             )
           ),
-          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__react_components_Checkbox_js__["a" /* default */], {
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_5__react_components_Checkbox_js__["a" /* default */], {
             label: 'Disabled',
             checked: this.state.controlDisabled,
             onChange: function onChange(controlDisabled) {
@@ -5832,6 +5836,273 @@ var UIButtonsReact = function (_React$Component) {
                     'p',
                     null,
                     'Defines the disabled state of the button'
+                  )
+                )
+              )
+            )
+          )
+        )
+      ),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'div',
+        { className: 'row' },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'div',
+          { className: 'columns small-12' },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'h2',
+            null,
+            'Button Group Component'
+          )
+        )
+      ),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'div',
+        { className: 'row' },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'div',
+          { className: 'columns small-12' },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__react_components_ButtonGroup_js___default.a, {
+            buttonClassName: 'button-is-xs',
+            options: [{
+              label: 'Topology',
+              iconClassName: 'fa fa-bars',
+              value: 'Topology'
+            }, {
+              label: 'List',
+              iconClassName: 'fa fa-list',
+              value: 'List'
+            }],
+            value: this.state.selected,
+            onChange: function onChange(newValue) {
+              _this2.setState({ selected: newValue });
+            }
+          })
+        )
+      ),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'div',
+        { className: 'row' },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'div',
+          { className: 'columns small-12' },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__react_components_site_code__["a" /* default */], {
+            language: 'language-jsx',
+            text: '<ButtonGroup\n  buttonClassName="button-is-xs"\n  options={[\n    {\n      label: \'Topology\',\n      iconClassName: \'fa fa-bars\',\n      value: \'Topology\'\n    },\n    {\n      label: \'List\',\n      iconClassName: \'fa fa-list\',\n      value: \'List\'\n    }\n  ]}\n  value={this.state.selected}\n  onChange={(newValue) => {\n    this.setState({ selected: newValue });\n  }}\n/>' })
+        )
+      ),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'div',
+        { className: 'row' },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          'div',
+          { className: 'columns small-12' },
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'h3',
+            null,
+            'Available Props'
+          ),
+          __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+            'table',
+            { className: 'table' },
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'thead',
+              null,
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'tr',
+                { className: 'table-row' },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'th',
+                  { className: 'table-header' },
+                  'Prop Name'
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'th',
+                  { className: 'table-header' },
+                  'Type'
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'th',
+                  { className: 'table-header' },
+                  'Description'
+                )
+              )
+            ),
+            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+              'tbody',
+              null,
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'tr',
+                { className: 'table-row' },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'td',
+                  { className: 'table-column table-cell' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'p',
+                    { className: 'code' },
+                    'onChange'
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'td',
+                  { className: 'table-column table-cell' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'p',
+                    null,
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      'b',
+                      null,
+                      'Function, Required'
+                    )
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'td',
+                  { className: 'table-column table-cell' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'p',
+                    null,
+                    'Click event handler'
+                  )
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'tr',
+                { className: 'table-row' },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'td',
+                  { className: 'table-column table-cell' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'p',
+                    { className: 'code' },
+                    'label'
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'td',
+                  { className: 'table-column table-cell' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'p',
+                    null,
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      'b',
+                      null,
+                      'String'
+                    )
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'td',
+                  { className: 'table-column table-cell' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'p',
+                    null,
+                    'Text rendered in the body of the button'
+                  )
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'tr',
+                { className: 'table-row' },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'td',
+                  { className: 'table-column table-cell' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'p',
+                    { className: 'code' },
+                    'value'
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'td',
+                  { className: 'table-column table-cell' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'p',
+                    null,
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      'b',
+                      null,
+                      'String, Required'
+                    )
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'td',
+                  { className: 'table-column table-cell' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'p',
+                    null,
+                    'Defines the default value of the button'
+                  )
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'tr',
+                { className: 'table-row' },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'td',
+                  { className: 'table-column table-cell' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'p',
+                    { className: 'code' },
+                    'iconClassName'
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'td',
+                  { className: 'table-column table-cell' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'p',
+                    null,
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      'b',
+                      null,
+                      'String'
+                    )
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'td',
+                  { className: 'table-column table-cell' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'p',
+                    null,
+                    'Icon(s) using Font-Awesome class'
+                  )
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'tr',
+                { className: 'table-row' },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'td',
+                  { className: 'table-column table-cell' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'p',
+                    { className: 'code' },
+                    'buttonClassName'
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'td',
+                  { className: 'table-column table-cell' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'p',
+                    null,
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      'b',
+                      null,
+                      'string'
+                    )
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'td',
+                  { className: 'table-column table-cell' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'p',
+                    null,
+                    'CSS class(es) passed to the button'
                   )
                 )
               )
@@ -6240,6 +6511,77 @@ var UIButtons = function UIButtons() {
 };
 
 /* harmony default export */ __webpack_exports__["a"] = (UIButtons);
+
+/***/ }),
+
+/***/ "PE2N":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var React = __webpack_require__("U7vG");
+var PropTypes = __webpack_require__("KSGD");
+var classNames = __webpack_require__("HW6M");
+
+function ButtonGroup(props) {
+    var options = props.options,
+        buttonClassName = props.buttonClassName,
+        selectedValue = props.value,
+        onChange = props.onChange;
+
+
+    return React.createElement(
+        'span',
+        null,
+        React.createElement(
+            'div',
+            {
+                className: 'button-group'
+            },
+            options.map(function (option) {
+                var label = option.label,
+                    iconClassName = option.iconClassName,
+                    value = option.value;
+
+                return React.createElement(
+                    'button',
+                    {
+                        key: value,
+                        onClick: function onClick() {
+                            return onChange(value);
+                        },
+                        className: classNames('button', 'button-group-button', buttonClassName, {
+                            'button-is-active': value === selectedValue
+                        })
+                    },
+                    iconClassName && React.createElement('i', {
+                        className: classNames(iconClassName, 'button-left-icon'),
+                        'aria-hidden': true }),
+                    label
+                );
+            })
+        )
+    );
+}
+
+ButtonGroup.propTypes = {
+    options: PropTypes.arrayOf(PropTypes.shape({
+        label: PropTypes.string,
+        value: PropTypes.string.isRequired,
+        iconClassName: PropTypes.string
+    })).isRequired,
+    buttonClassName: PropTypes.string,
+    onChange: PropTypes.func.isRequired,
+    value: PropTypes.string.isRequired
+};
+
+ButtonGroup.defaultProps = {
+    options: [],
+    buttonClassName: ''
+};
+
+module.exports = ButtonGroup;
 
 /***/ }),
 

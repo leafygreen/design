@@ -3138,6 +3138,28 @@ i.mms-icon-addcenter {
           box-shadow: none;
   border: none;
 }
+.button-is-active {
+  border-color: #9fa1a2;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#dfe2e2), to(#ffffff));
+  background-image: -webkit-linear-gradient(top, #dfe2e2 0%, #ffffff 100%);
+  background-image: -o-linear-gradient(top, #dfe2e2 0%, #ffffff 100%);
+  background-image: linear-gradient(-180deg, #dfe2e2 0%, #ffffff 100%);
+  -webkit-box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.1);
+          box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+.button-is-active:focus:not([disabled]):not(.button-is-disabled),
+.button-is-active:hover:not([disabled]):not(.button-is-disabled),
+.button-is-active:active:not([disabled]):not(.button-is-disabled) {
+  border-color: #9fa1a2;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#dfe2e2), to(#ffffff));
+  background-image: -webkit-linear-gradient(top, #dfe2e2 0%, #ffffff 100%);
+  background-image: -o-linear-gradient(top, #dfe2e2 0%, #ffffff 100%);
+  background-image: linear-gradient(-180deg, #dfe2e2 0%, #ffffff 100%);
+  -webkit-box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.1);
+          box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
 /**
  * A mixin to avoid floating. Instead, it uses a container whose font-size
  * is set to zero to avoid extra spacing from whitespace, and whose interior
