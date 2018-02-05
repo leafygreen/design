@@ -9866,8 +9866,8 @@ var Resources = function (_React$Component) {
   Resources.prototype.componentWillMount = function componentWillMount() {
     var _this2 = this;
 
-    var files = ["_mongodb-core.sketch", "_compass-template-1.7.sketch", "_cloud-template.sketch", "_stitch-template.sketch", "_university-template-1.2.sketch"];
-    var statePairing = [["_mongodb-core.sketch", "coreLastUpdated"], ["_compass-template-1.7.sketch", "compassLastUpdated"], ["_cloud-template.sketch", "cloudLastUpdated"], ["_stitch-template.sketch", "stitchLastUpdated"], ["_university-template-1.2.sketch", "universityLastUpdated"]];
+    var files = ["_mongodb-core.sketch", "_charts-template-0.1.sketch", "_cloud-template.sketch", "_compass-template-1.7.sketch", "_stitch-template.sketch", "_university-template-1.2.sketch"];
+    var statePairing = [["_mongodb-core.sketch", "coreLastUpdated"], ["_charts-template-0.1.sketch", "chartsLastUpdated"], ["_cloud-template.sketch", "cloudLastUpdated"], ["_compass-template-1.7.sketch", "compassLastUpdated"], ["_stitch-template.sketch", "stitchLastUpdated"], ["_university-template-1.2.sketch", "universityLastUpdated"]];
     var stateMap = new Map(statePairing);
 
     client.login().then(function () {
@@ -9978,23 +9978,23 @@ var Resources = function (_React$Component) {
                   { className: 'table-column table-cell' },
                   __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     'a',
-                    { href: 'https://github.com/leafygreen/sketchUILibrary/blob/master/_compass-template-1.7.sketch?raw=true' },
+                    { href: 'https://github.com/leafygreen/sketchUILibrary/blob/master/_charts-template-0.1.sketch?raw=true' },
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                       'strong',
                       null,
-                      '_compass-template-1.7.sketch'
+                      '_charts-template-0.1.sketch'
                     )
                   )
                 ),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   'td',
                   { className: 'table-column table-cell' },
-                  'Components and layouts for MongoDB Compass'
+                  'Components and layouts for MongoDB Charts'
                 ),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                   'td',
                   { className: 'table-column table-cell' },
-                  this.state.compassLastUpdated
+                  this.state.chartsLastUpdated
                 )
               ),
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -10022,6 +10022,33 @@ var Resources = function (_React$Component) {
                   'td',
                   { className: 'table-column table-cell' },
                   this.state.cloudLastUpdated
+                )
+              ),
+              __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                'tr',
+                { className: 'table-row' },
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'td',
+                  { className: 'table-column table-cell' },
+                  __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                    'a',
+                    { href: 'https://github.com/leafygreen/sketchUILibrary/blob/master/_compass-template-1.7.sketch?raw=true' },
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                      'strong',
+                      null,
+                      '_compass-template-1.7.sketch'
+                    )
+                  )
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'td',
+                  { className: 'table-column table-cell' },
+                  'Components and layouts for MongoDB Compass'
+                ),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+                  'td',
+                  { className: 'table-column table-cell' },
+                  this.state.compassLastUpdated
                 )
               ),
               __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
