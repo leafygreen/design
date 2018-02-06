@@ -6366,7 +6366,7 @@ var UIButtons = function UIButtons() {
         { className: 'columns small-12' },
         __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
           'button',
-          { className: 'button button-is-full' },
+          { className: 'button button-is-full u-mt-2' },
           'Full Width Button'
         )
       )
