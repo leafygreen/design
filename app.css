@@ -6276,6 +6276,39 @@ input[type="radio"].rich-radio-radio-button-is-hidden,
   max-width: 100%;
   padding: 1em 0;
 }
+.principle-row {
+  padding-left: 300px;
+  min-height: 300px;
+  background-size: 250px 250px;
+  background-repeat: no-repeat;
+}
+.principle-row-clarity {
+  background-image: url(clarity_1@2x.0f0443e1.png);
+}
+.principle-row-integrity {
+  background-image: url(integrity_1@2x.8e2788d7.png);
+}
+.principle-row-inclusiveness {
+  background-image: url(inclusiveness_1@2x.605a0f0d.png);
+}
+.principle-row-consistency {
+  background-image: url(consistency_1@2x.e3b0ed4f.png);
+}
+.principle-row-automation {
+  background-image: url(automation_1@2x.4cee25a4.png);
+}
+.principle-row-collaboration {
+  background-image: url(collaboration_1@2x.be65f5e6.png);
+}
+.principle-row-rigor {
+  background-image: url(rigor_1@2x.71eafa36.png);
+}
+.principle-row-passion {
+  background-image: url(passion_1@2x.0596742f.png);
+}
+.principle-row-impact {
+  background-image: url(impact_1@2x.5f3914b2.png);
+}
 * {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-box-sizing: border-box;
