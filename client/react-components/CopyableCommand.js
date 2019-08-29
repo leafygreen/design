@@ -60,27 +60,29 @@ class CopyableCommand extends Component {
     } = this.state;
 
     return (
-      <div className={classNames('copy-command', {
-        [otherClasses]: !!otherClasses
-      })}
+      <div className={classNames('copy-command copy-command-single',
+        {'copy-command-is-full-width': fullWidth}
+      )}
       >
-        <span className={classNames('copy-command-text',
-          {'copy-command-is-full-width': fullWidth}
-        )}
-        >
-          {this.props.children || copyableText}
-        </span>
-        <button
-          ref={(button) => { this.copyButton = button; }}
-          className="copy-command-button"
-          data-clipboard-mixin
-          data-clipboard-text={copyableText}
-          onMouseLeave={this.onMouseLeave}
-        >
-          <Tooltip content={tooltipText}>
-            <i className="fa fa-files-o" /> COPY
-          </Tooltip>
-        </button>
+        <div className="copy-command-single-container">
+          <code className={classNames('copy-command-text')}
+          >
+            {this.props.children || copyableText}
+          </code>
+        </div>
+        <div className="copy-command-button-container">
+          <button
+            ref={(button) => { this.copyButton = button; }}
+            className="button copy-command-button"
+            data-clipboard-mixin
+            data-clipboard-text={copyableText}
+            onMouseLeave={this.onMouseLeave}
+          >
+            <Tooltip content={tooltipText}>
+              <i className="fa fa-files-o" /> Copy
+            </Tooltip>
+          </button>
+        </div>
       </div>
     );
 

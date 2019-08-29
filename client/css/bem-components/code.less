@@ -1,51 +1,59 @@
 .copy-command {
-  // flexbox gets the button to fill vertical space-- requires silly hacks otherwise
-  display: -ms-flexbox;
-  display: flex;
+  background: @gray7;
+  border-left: 3px solid @gray6;
+  display: inline-flex;
+  flex-wrap: nowrap;
+  align-items: center;
 
-  &-text {
-    background: @gray7;
-    border-left: 3px solid @gray5;
-    display: inline-block;
-    padding: 10px 15px;
-    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
-    font-size: 12px;
-    line-height: 35px;
-    overflow: scroll;
+  &-single-container {
+    flex-basis: auto;
+    flex-shrink: 1;
+    flex-grow: 1;
+    overflow-x: auto;
     white-space: nowrap;
   }
 
-  &-button {
-    flex: 0 0 100px;
-    display: inline-block;
-    background-color: @pw;
-    border: 1px solid @gray6;
-    font-size: 12px;
-    font-weight: bold;
-    text-transform: uppercase;
-    outline: 0;
+  &-block-container {
+    white-space: pre-wrap;
+  }
 
-    &:active {
-      box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.1);
-    }
+  &-button-container {
+    flex-basis: auto;
+    flex-shrink: 0;
+    flex-grow: 0; 
+    padding-left: 15px;
+  }
+
+  &-single {
+    padding: 15px;
+    height: 54px;
+  }
+
+  &-block {
+    padding: 15px;
+    line-height: 1.75;
+    align-items: end;
+  }
+  
+  &-text {
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    font-size: 12px;
+  }
+
+  &-button {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none; /* Webkit */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none;     /* IE 10  */
+    -o-user-select: none;
+    user-select: none;
   }
 
   &-is-full-width {
-    flex-basis: 100%;
+    display: flex;
   }
 
   &-is-spaced {
     margin-bottom: 10px;
   }
-}
-
-.codeblock {
-  white-space: pre;
-  overflow: scroll;
-  padding: 10px;
-  background: @gray7;
-  border-left: 3px solid @gray5;
-  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
-  font-size: 13px;
-  line-height: 1.65;
 }

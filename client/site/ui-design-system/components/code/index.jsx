@@ -37,11 +37,15 @@ const UICode = () => (
         </div>
         <div className="row">
           <div className="columns small-12">
-            <div className="copy-command">
-              <span className="copy-command-text">This is a command that you can copy. It will not break onto the next line since the overflow will keep scrolling horizontally.</span>
-              <button className="copy-command-button">
-                <i className="fa fa-files-o"></i> Copy
-              </button>
+            <div className="copy-command copy-command-single">
+              <div className="copy-command-single-container">
+                <code className="copy-command-text">By default command snippets are not full width.</code>
+              </div>
+              <div className="copy-command-button-container">
+                <button className="button copy-command-button">
+                  <i className="fa fa-files-o"></i> Copy
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -49,22 +53,30 @@ const UICode = () => (
           <div className="columns small-12">
             <Code
               language='language-html'
-              text={`<div class="copy-command">
-  <span class="copy-command-text">This is a command that you can copy. It will not break onto the next line since the overflow will keep scrolling horizontally.</span>
-  <button class="copy-command-button">
-    <i class="fa fa-files-o"></i> Copy
-  </button>
+              text={`<div class="copy-command copy-command-single">
+  <div class="copy-command-single-container">
+    <code class="copy-command-text">By default command snippets are not full width.</code>
+  </div>
+  <div class="copy-command-button-container">
+    <button class="button copy-command-button">
+      <i class="fa fa-files-o"></i> Copy
+    </button>
+  </div>
 </div>`}> 
             </Code>
           </div>
         </div>
         <div className="row">
           <div className="columns small-12">
-            <div className="copy-command">
-              <span className="copy-command-text">By default command snippets are not full width.</span>
-              <button className="copy-command-button">
-                <i className="fa fa-files-o"></i> Copy
-              </button>
+            <div className="copy-command copy-command-single copy-command-is-full-width">
+              <div className="copy-command-single-container">
+                <code className="copy-command-text">However, you can force the snippet to be full width by adding an additional class. this code runs extra long.</code>
+              </div>
+              <div className="copy-command-button-container">
+                <button className="button copy-command-button">
+                  <i className="fa fa-files-o"></i> Copy
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -72,34 +84,15 @@ const UICode = () => (
           <div className="columns small-12">
             <Code
               language='language-html'
-              text={`<div class="copy-command">
-  <span class="copy-command-text">By default command snippets are not full width.</span>
-  <button class="copy-command-button">
-    <i class="fa fa-files-o"></i> Copy
-  </button>
-</div>`}> 
-            </Code>
-          </div>
-        </div>
-        <div className="row">
-          <div className="columns small-12">
-            <div className="copy-command">
-              <span className="copy-command-text copy-command-is-full-width">However, you can force the snippet to be full width by adding an additional class.</span>
-              <button className="copy-command-button">
-                <i className="fa fa-files-o"></i> Copy
-              </button>
-            </div>
-          </div>
-        </div>
-        <div className="row u-mb-3">
-          <div className="columns small-12">
-            <Code
-              language='language-html'
-              text={`<div class="copy-command">
-  <span class="copy-command-text copy-command-is-full-width">However, you can force the snippet to be full width by adding an additional class.</span>
-  <button class="copy-command-button">
-    <i class="fa fa-files-o"></i> Copy
-  </button>
+              text={`<div class="opy-command copy-command-single copy-command-is-full-width">
+  <div class="copy-command-single-container">
+    <code class="copy-command-text">However, you can force the snippet to be full width by adding an additional class. this code runs extra long.</code>
+  </div>
+  <div class="copy-command-button-container">
+    <button class="button copy-command-button">
+      <i class="fa fa-files-o"></i> Copy
+    </button>
+  </div>
 </div>`}> 
             </Code>
           </div>
@@ -111,13 +104,20 @@ const UICode = () => (
         </div>
         <div className="row">
           <div className="columns small-12">
-            <div className="codeblock">
-              <code>
-                <div>{ 'const exampleCodeblock = {' }</div>
-                <div>{ '  description: \'this is a codeblock that preserves whitespace\',' }</div>
-                <div>{ '  overflow: \'this is also scrollable horizontally, so it won\'t break onto the next line even if it\'s really long, it just keeps scrolling and scrolling and scrolling...\'' }</div>
-                <div>{ '};' }</div>
-              </code>
+            <div className="copy-command copy-command-block">
+              <div className="copy-command-block-container">
+                <code className="copy-command-text">
+                  <div>{ 'const exampleCodeblock = {' }</div>
+                  <div>{ '  description: \'this is a codeblock that preserves whitespace\',' }</div>
+                  <div>{ '  overflow: \'this is also scrollable horizontally, so it won\'t break onto the next line even if it\'s really long, it just keeps scrolling and scrolling and scrolling...\'' }</div>
+                  <div>{ '};' }</div>
+                </code>
+              </div>
+              <div className="copy-command-button-container">
+                <button className="button copy-command-button">
+                  <i className="fa fa-files-o"></i> Copy
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -125,13 +125,20 @@ const UICode = () => (
           <div className="columns small-12">
             <Code
               language='language-html'
-              text={`<div class="codeblock">
-  <code>
-    <div>{ 'const exampleCodeblock = {' }</div>
-      <div>{ '  description: 'this is a codeblock that preserves whitespace',' }</div>
-      <div>{ '  overflow: 'this is also scrollable horizontally, so it won't break onto the next line even if it's really long, it just keeps scrolling and scrolling and scrolling...'' }</div>
-    <div>{ '};' }</div>
-  </code>
+              text={`<div class="copy-command copy-command-block">
+  <div class="copy-command-block-container">
+    <code class="copy-command-text">
+      <div>{ 'const exampleCodeblock = {' }</div>
+        <div>{ '  description: 'this is a codeblock that preserves whitespace',' }</div>
+        <div>{ '  overflow: 'this is also scrollable horizontally, so it won't break onto the next line even if it's really long, it just keeps scrolling and scrolling and scrolling...'' }</div>
+      <div>{ '};' }</div>
+    </code>
+  </div>
+  <div class="copy-command-button-container">
+    <button class="button copy-command-button">
+      <i class="fa fa-files-o"></i> Copy
+    </button>
+  </div>
 </div>`}> 
             </Code>
           </div>
